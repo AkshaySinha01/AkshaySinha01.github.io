@@ -1,0 +1,20 @@
+title: "Akshay - Data Analytics Portfolio"
+description: "Showcasing my Tableau Dashboards and Data Analytics Projects"
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+
+plugins:
+  - jekyll-include-cache
+
+author:
+  name: "Akshay"
+  linkedin: "https://www.linkedin.com/in/YOUR_PROFILE"
+  github: "https://github.com/AkshaySinha01"
+
+# Navigation bar
+nav:
+  - title: "Home"
+    url: /
+  - title: "Projects"
+    url: /projects/
+  - title: "About"
+    url: /about/
