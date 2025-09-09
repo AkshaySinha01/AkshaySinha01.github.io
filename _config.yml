@@ -1,5 +1,5 @@
 title: "Akshay - Data Analytics Portfolio"
-description: "Showcasing my Tableau Dashboards and Data Analytics Projects"
+description: "A portfolio showcasing my data analytics projects."
 remote_theme: mmistakes/minimal-mistakes@4.24.0
 
 plugins:
@@ -10,12 +10,6 @@ author:
   linkedin: "https://www.linkedin.com/in/YOUR_PROFILE"
   github: "https://github.com/AkshaySinha01"
 
-# Enable Projects Collection
-collections:
-  projects:
-    output: true
-    permalink: /projects/:path/
-
 # Navigation bar
 nav:
   - title: "Home"
@@ -24,3 +18,8 @@ nav:
     url: /projects/
   - title: "About"
     url: /about/
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
