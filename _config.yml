@@ -10,6 +10,12 @@ author:
   linkedin: "https://www.linkedin.com/in/YOUR_PROFILE"
   github: "https://github.com/AkshaySinha01"
 
+# Enable Projects Collection
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
 # Navigation bar
 nav:
   - title: "Home"
