@@ -1,9 +1,8 @@
 ---
 layout: home
+title: "Welcome to My Portfolio 👋"
 permalink: /
 ---
-
-# Welcome to My Portfolio 👋
 
 Hi, I'm **Akshay** — a Data Analyst skilled in Tableau, SQL, Excel, and Python.  
 Here, you'll find my projects where I analyze real-world datasets and build interactive dashboards.
