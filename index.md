@@ -1,9 +1,3 @@
----
-layout: home
-title:
-permalink: /
----
-
 # Welcome to My Portfolio 👋
 
 Hi, I'm **Akshay** — a Data Analyst skilled in Tableau, SQL, Excel, and Python.  
