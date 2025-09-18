@@ -36,25 +36,26 @@ nav {
 }
 
 /* Home card container */
-.home-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  padding: 3rem;
-  margin: 3rem auto;
-  max-width: 900px;
-  background: linear-gradient(145deg, #6aeb92, #5fd383);
+/* Profile Card Styling with Glassmorphism */
+.profile-card {
+  background: rgba(255, 255, 255, 0.15); /* transparent white */
   border-radius: 20px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
-  position: relative;
-  z-index: 1;
+  padding: 40px;
+  max-width: 900px;
+  margin: 50px auto;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25); /* stronger shadow */
+  backdrop-filter: blur(12px); /* glass blur effect */
+  -webkit-backdrop-filter: blur(12px); /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* subtle border */
+  transition: all 0.3s ease; /* smooth hover effect */
 }
 
-.home-container:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
-}  
+/* Hover effect: glow + lift */
+.profile-card:hover {
+  box-shadow: 0 12px 40px rgba(0, 255, 100, 0.4); /* green glow */
+  transform: translateY(-8px); /* slight lift */
+}
   
 /* Profile image */
 .home-profile {
