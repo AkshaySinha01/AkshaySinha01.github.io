@@ -4,7 +4,7 @@ title: "Projects"
 permalink: /projects/
 ---
 
-<h2 style="margin-top: 40px; margin-left: 20px; color: white;">My Projects</h2>
+<h2 style="color: white;">My Projects</h2>
 
 <div style="padding: 30px; background: #3B3838; min-height: 100vh;">
 
