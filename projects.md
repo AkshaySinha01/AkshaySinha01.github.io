@@ -6,21 +6,21 @@ permalink: /projects/
 
 <div style="background: #3B3838; min-height: 100vh; padding: 40px;">
 
-  <h2 style="margin-top: 0; margin-left: 10px; color: #ffffff;">My Projects</h2>
-
-  <!-- Back to Home Button -->
-  <a href="/" class="back-btn">← Back to Home</a>
+  <!-- Header with Title + Home Button -->
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+    <h2 style="margin: 0; color: #ffffff;">My Projects</h2>
+    <a href="/" class="back-btn">Home</a>
+  </div>
 
   <style>
-    /* Back Button */
+    /* Home Button */
     .back-btn {
-      display: inline-block;
-      margin: 10px 0 25px 10px;
       padding: 10px 18px;
       background: #28a745;
       color: white;
       text-decoration: none;
       border-radius: 6px;
+      font-weight: 500;
       transition: background 0.3s ease, transform 0.2s ease;
     }
     .back-btn:hover {
@@ -39,7 +39,7 @@ permalink: /projects/
     .project-card:hover {
       transform: translateY(-6px);
       box-shadow: 0 10px 20px rgba(0,0,0,0.6);
-      background: #8a8585; /* Slightly brighter */
+      background: #8a8585;
     }
 
     /* View Project Button */
@@ -53,14 +53,15 @@ permalink: /projects/
       transition: background 0.3s ease, transform 0.2s ease;
     }
     .project-card:hover .project-btn {
-      background: #1e7e34; /* Darker green when card hovered */
+      background: #1e7e34;
     }
     .project-btn:hover {
       transform: scale(1.05);
     }
   </style>
 
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px;">
+  <!-- Project Cards Grid -->
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
 
     {% for project in site.projects %}
     <div class="project-card">
