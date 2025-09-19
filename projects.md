@@ -16,7 +16,7 @@ permalink: /projects/
     /* Home Button */
     .back-btn {
       padding: 10px 18px;
-      background: #ff9500;
+      background: #28a745;
       color: white;
       text-decoration: none;
       border-radius: 6px;
@@ -24,7 +24,7 @@ permalink: /projects/
       transition: background 0.3s ease, transform 0.2s ease;
     }
     .back-btn:hover {
-      background: #e67e22;
+      background: #1e7e34;
       transform: scale(1.05);
     }
 
