@@ -4,6 +4,19 @@ title: "Projects"
 permalink: /projects/
 ---
 
+/* Background styling for full page */
+<style>
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e9600, #2ecc71); /* Green gradient */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  overflow: hidden;
+  z-index: 0; /* keep background base */
+}
+</style>
+
 <h2>My Projects</h2>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
