@@ -4,7 +4,6 @@ title: "Projects"
 permalink: /projects/
 ---
 
-/* Background styling for full page */
 <style>
 body {
   margin: 0;
