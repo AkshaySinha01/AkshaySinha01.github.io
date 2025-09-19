@@ -46,14 +46,14 @@ permalink: /projects/
     .project-btn {
       display: inline-block;
       padding: 10px 15px;
-      background: #28a745;
+      background: #20c997;
       color: white;
       text-decoration: none;
       border-radius: 6px;
       transition: background 0.3s ease, transform 0.2s ease;
     }
     .project-card:hover .project-btn {
-      background: #1e7e34;
+      background: #1abc9c;
     }
     .project-btn:hover {
       transform: scale(1.05);
