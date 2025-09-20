@@ -32,7 +32,7 @@ permalink: /projects/
     .project-card {
       background: #767171;
       border-radius: 15px;
-      padding: 20px;
+      padding: 30px;
       box-shadow: 0 6px 12px rgba(0,0,0,0.4);
       transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
     }
