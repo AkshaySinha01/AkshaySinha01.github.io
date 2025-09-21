@@ -6,8 +6,8 @@ layout: default
 <p><em>{{ page.description }}</em></p>
 
 <div style="margin: 20px 0;">
-  {% if page.tableau %}
-    {% include responsive_tableau.html src=page.tableau %}
+  {% if page.embed %}
+    {% include responsive_tableau.html src=page.embed %}
   {% endif %}
 </div>
 
