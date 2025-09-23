@@ -6,11 +6,28 @@ layout: default
 <p><em>{{ page.description }}</em></p>
 
 <div style="margin: 20px 0;">
-  {% if page.embed %}
-    {% include responsive_tableau.html src=page.embed %}
+  {% if page.tableau %}     /* Replace tableau with embed for every project to view similar as tableau embed */
+    {% include responsive_tableau.html src=page.tableau %}
+  {% elsif page.screenshot %}
+    <!-- Screenshot + Download Link -->
+    <div style="text-align:center;">
+      <img src="{{ page.screenshot | relative_url }}" 
+           alt="{{ page.title }} Preview" 
+           style="max-width:100%; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.4); margin-bottom:15px;">
+      {% if page.file %}
+        <p>
+          <a href="{{ page.file | relative_url }}" 
+             download 
+             style="display:inline-block; padding:10px 15px; background:#20c997; color:white; text-decoration:none; border-radius:5px;">
+             ⬇ Download Project
+          </a>
+        </p>
   {% endif %}
 </div>
+ {% endif %}
+</div>
 
+<!-- Navigation Buttons -->
 <p>
   <a href="{{ '/projects/' | relative_url }}" style="display:inline-block; margin-top:20px; padding:10px 15px; background:#0073e6; color:white; text-decoration:none; border-radius:5px;">⬅ Back to Projects</a>
 </p>
