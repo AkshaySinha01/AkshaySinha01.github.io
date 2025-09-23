@@ -19,12 +19,12 @@ layout: default
           <a href="{{ page.file | relative_url }}" 
              download 
              style="display:inline-block; padding:10px 15px; background:#20c997; color:white; text-decoration:none; border-radius:5px; transition: all 0.2s ease;">
-             ⬇ Download Project
+             ⬇ View/Download Project
           </a>
         </p>
   {% endif %}
 
-      <style>
+<style>
   a[download]:hover {
     background: #198754; /* darker green */
     transform: scale(1.08);
@@ -37,9 +37,25 @@ layout: default
 
 <!-- Navigation Buttons -->
 <p>
-  <a href="{{ '/projects/' | relative_url }}" style="display:inline-block; margin-top:20px; padding:10px 15px; background:#0073e6; color:white; text-decoration:none; border-radius:5px;">⬅ Back to Projects</a>
+  <a href="{{ '/projects/' | relative_url }}" style="display:inline-block; margin-top:20px; padding:10px 15px; background:#0073e6; color:white; text-decoration:none; border-radius:5px; transition: all 0.2s ease;">⬅ Back to Projects</a>
 </p>
 
 <p>
-  <a href="{{ '/' | relative_url }}" style="display:inline-block; margin-top:10px; padding:10px 15px; background:#28a745; color:white; text-decoration:none; border-radius:5px;">🏠 Back to Home</a>
+  <a href="{{ '/' | relative_url }}" style="display:inline-block; margin-top:10px; padding:10px 15px; background:#28a745; color:white; text-decoration:none; border-radius:5px; transition: all 0.2s ease;">🏠 Back to Home</a>
 </p>
+
+<style>
+  /* Back to Projects hover */
+  a[href*="/projects/"]:hover {
+    background: #005bb5; /* darker blue */
+    transform: scale(1.08);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+
+  /* Back to Home hover */
+  a[href="/"]:hover {
+    background: #1e7e34; /* darker green */
+    transform: scale(1.08);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+</style>
