@@ -6,7 +6,7 @@ layout: default
 <p><em>{{ page.description }}</em></p>
 
 <div style="margin: 20px 0;">
-  {% if page.tableau %}     /* Replace tableau with embed for every project to view similar as tableau embed */
+  {% if page.tableau %}
     {% include responsive_tableau.html src=page.tableau %}
   {% elsif page.screenshot %}
     <!-- Screenshot + Download Link -->
