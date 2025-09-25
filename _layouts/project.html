@@ -3,7 +3,11 @@ layout: default
 ---
 
 <h2>{{ page.title }}</h2>
-<h3>{{ page.tagline }}</h3>
+{% if page.tagline %}
+  <p style="font-style: italic; color: #ffcc66; margin: 5px 0 15px;">
+    {{ page.tagline }}
+  </p>
+{% endif %}
 <p><em>{{ page.description }}</em></p>
 
 <div style="margin: 20px 0;">
