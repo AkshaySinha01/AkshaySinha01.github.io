@@ -61,7 +61,7 @@ permalink: /projects/
   </style>
 
   <!-- Project Cards Grid -->
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 20px;">
 
     {% for project in site.projects %}
     <div class="project-card">
