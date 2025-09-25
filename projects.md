@@ -79,6 +79,9 @@ permalink: /projects/
     {% for project in site.projects %}
     <div class="project-card">
       <h3 style="margin-top: 0; color: #ffffff;">{{ project.title }}</h3>
+      {% if project.tagline %}
+        <p style="font-style: italic; color: #ffcc66; margin: 5px 0 10px;">{{ project.tagline }}</p>
+      {% endif %}
       <p style="color: #e0e0e0;">{{ project.description }}</p>
       <a href="{{ project.url }}" class="project-btn">View Project</a>
     </div>
