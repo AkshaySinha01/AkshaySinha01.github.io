@@ -58,10 +58,23 @@ permalink: /projects/
     .project-btn:hover {
       transform: scale(1.05);
     }
+
+     /* Project Grid Layout */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* 2 per row by default */
+      gap: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .projects-grid {
+        grid-template-columns: 1fr; /* 1 per row on mobile */
+      }
+    }
   </style>
 
   <!-- Project Cards Grid -->
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 20px;">
+  <div class="projects-grid">
 
     {% for project in site.projects %}
     <div class="project-card">
