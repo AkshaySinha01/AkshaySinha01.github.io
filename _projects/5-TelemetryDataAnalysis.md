@@ -1,5 +1,5 @@
 ---
-title: "Telemetry Data Analysis-Downtime Per Factory/Machine"
+title: "Telemetry Data Analysis - Downtime Per Factory/Machine"
 tagline: "Tracking 🏭 Downtime ⏱️ Boosting ⚡ Productivity"
 description: "Interactive Tableau dashboard analyzing downtime across factories and machines to highlight inefficiencies and improve operations."
 layout: project
