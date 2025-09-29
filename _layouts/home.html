@@ -10,7 +10,7 @@ body {
   background: linear-gradient(135deg, #1abc9c, #0d5e4e); /* Green gradient */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   position: relative;
-  overflow: hidden;
+  overflow-x: hidden; /* ✅ only hide horizontal scroll */  /* overflow: hidden --> 🚨 this prevents scrolling */
   z-index: 0; /* keep background base */
 }
 
