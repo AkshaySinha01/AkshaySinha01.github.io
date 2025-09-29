@@ -140,6 +140,64 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+/* ============================= */
+/* 📱 Mobile View Adjustments    */
+/* ============================= */
+
+/* OPTION 1: Keep layout similar to laptop (2 buttons per row) */
+@media (max-width: 600px) {
+  .home-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+  }
+  .home-profile {
+    flex: 1 1 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .home-info {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+  .home-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .home-links a {
+    flex: 1 1 40%;
+    text-align: center;
+  }
+}
+
+/* OPTION 2: Best usability (stacked buttons full-width) */
+/*
+@media (max-width: 600px) {
+  .home-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  .home-profile {
+    margin-bottom: 1rem;
+  }
+  .home-info {
+    text-align: center;
+  }
+  .home-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .home-links a {
+    width: 100%;
+    text-align: center;
+  }
+}
+*/
 </style>
 
 <div class="home-container">
