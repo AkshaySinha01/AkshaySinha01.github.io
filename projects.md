@@ -66,15 +66,15 @@ permalink: /projects/
       gap: 20px;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 600px) {
       .projects-grid {
-        grid-template-columns: 1fr; /* 1 per row on mobile */
+        grid-template-columns: 1fr !important; /* force 1 per row */
       }
     }
   </style>
 
   <!-- Project Cards Grid -->
-  <div class="projects-grid">
+  <div class="projects-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 20px;">
 
     {% for project in site.projects %}
     <div class="project-card">
