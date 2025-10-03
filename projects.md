@@ -62,11 +62,11 @@ permalink: /projects/
      /* Project Grid Layout */
     .projects-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 2 per row by default */
+      grid-template-columns: 1fr 1fr; /* 2 per row by default */
       gap: 20px;
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
       .projects-grid {
         grid-template-columns: 1fr; /* force 1 per row */
       }
