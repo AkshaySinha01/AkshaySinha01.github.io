@@ -23,12 +23,8 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-  README:
-    output: true
-    permalink: /README/:path
 
 # Navigation links
 header_pages:
   - index.md
   - projects.md
-  - README.md
