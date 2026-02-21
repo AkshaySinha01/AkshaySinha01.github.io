@@ -5,14 +5,15 @@ description: "End-to-end Air Quality analytics project analyzing India AQI data 
 layout: project
 tableau: "https://public.tableau.com/views/IndiaAirQualityIndexAQIAnalytics2022-2025/IndiaAirQualityMarketLandscape-ConsolidatedView?:showVizHome=no&:embed=true"
 ---
-<p>
+<div style="text-align:center; margin-top:25px;">
+
   <a href="https://github.com/AkshaySinha01/AkshaySinha01.github.io/blob/main/assets/docs/india-aqi-analytics/README.md"
      target="_blank"
      rel="noopener noreferrer"
      github
-     style="display:inline-block; margin-top:20px; padding:10px 15px; background:#24292e; color:white; text-decoration:none; border-radius:5px; transition: all 0.2s ease;">
+     style="display:inline-block; padding:10px 18px; background:#24292e; color:white; text-decoration:none; border-radius:5px; transition: all 0.2s ease; font-weight:500;">
      
-     <svg height="16" width="16" viewBox="0 0 16 16" fill="white" style="vertical-align:middle; margin-right:6px;">
+     <svg height="16" width="16" viewBox="0 0 16 16" fill="white" style="vertical-align:middle; margin-right:8px;">
        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 
        0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
        -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 
@@ -31,7 +32,8 @@ tableau: "https://public.tableau.com/views/IndiaAirQualityIndexAQIAnalytics2022-
 
      View Detailed Documentation
   </a>
-</p>
+
+</div>
 
 <style>
   a[github]:hover {
