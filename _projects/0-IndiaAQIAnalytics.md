@@ -5,5 +5,11 @@ description: "End-to-end Air Quality analytics project analyzing India AQI data 
 layout: project
 tableau: "https://public.tableau.com/views/IndiaAirQualityIndexAQIAnalytics2022-2025/IndiaAirQualityMarketLandscape-ConsolidatedView?:showVizHome=no&:embed=true"
 ---
-📄 **Detailed Documentation (README):**  
-👉 [View on GitHub](https://github.com/AkshaySinha01/AkshaySinha01.github.io/blob/main/assets/docs/india-aqi-analytics/README.md)
+<p>
+  📄 <strong>Detailed Documentation (README):</strong><br>
+  👉 <a href="https://github.com/AkshaySinha01/AkshaySinha01.github.io/blob/main/assets/docs/india-aqi-analytics/README.md" 
+       target="_blank" 
+       rel="noopener noreferrer">
+       View on GitHub
+     </a>
+</p>
